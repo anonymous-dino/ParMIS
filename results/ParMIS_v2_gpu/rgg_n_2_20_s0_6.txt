@@ -1,0 +1,319 @@
+======================================================= START ===============================================================================================================
+===================================================== ParMIS_v2 GPU Results ===============================================
+
+=== Multi-GPU Overlapped Pipeline ===
+
+Found 2 CUDA devices
+GPU0 (Clustering): Device 0
+GPU1 (MIS): Device 1
+GPU0: NVIDIA L40S
+GPU1: NVIDIA L40S
+Max threads per block: 1024
+Multiprocessor count: 142
+/data/prajjwal/ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
+Number of nodes: 1048576
+Number of edges: 13094078
+Initial MIS cardinality: 180902
+Initializing pipeline buffers...
+Initializing buffer 0...
+Buffer 0 initialized successfully
+Initializing buffer 1...
+Buffer 1 initialized successfully
+All buffers initialized successfully
+P2P access enabled between GPU0 and GPU1
+Batch size: 6
+
+Starting pipeline with 2 buffers...
+
+============================================================
+Processing batch 1/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 0 → slot 0
+
+============================================================
+Processing batch 2/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 1 → slot 1
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.018 ms (GPU)
+  3. Cluster Processing:    0.139 ms (GPU)
+       - Extract vertices: 0.051 ms
+       - Compute neighb.:  0.027 ms
+       - Vertex cluster.:  0.029 ms
+       - Assign edges:     0.016 ms
+       - Clear assigns.:   0.015 ms
+  4. TVB Process:           0.017 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.021 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 0 → slot 0
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.047 ms (GPU)
+  3. Cluster Processing:    0.127 ms (GPU)
+       - Extract vertices: 0.030 ms
+       - Compute neighb.:  0.032 ms
+       - Vertex cluster.:  0.033 ms
+       - Assign edges:     0.029 ms
+       - Clear assigns.:   0.004 ms
+  4. TVB Process:           0.007 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.611 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 1 → slot 1
+
+============================================================
+Processing batch 3/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 2 → slot 0
+
+============================================================
+Processing batch 4/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 3 → slot 1
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.023 ms (GPU)
+  3. Cluster Processing:    0.058 ms (GPU)
+       - Extract vertices: 0.018 ms
+       - Compute neighb.:  0.012 ms
+       - Vertex cluster.:  0.015 ms
+       - Assign edges:     0.006 ms
+       - Clear assigns.:   0.006 ms
+  4. TVB Process:           0.010 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.024 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 2 → slot 0
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.047 ms (GPU)
+  3. Cluster Processing:    0.128 ms (GPU)
+       - Extract vertices: 0.030 ms
+       - Compute neighb.:  0.036 ms
+       - Vertex cluster.:  0.033 ms
+       - Assign edges:     0.026 ms
+       - Clear assigns.:   0.004 ms
+  4. TVB Process:           0.006 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.608 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 3 → slot 1
+
+============================================================
+Processing batch 5/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 4 → slot 0
+
+============================================================
+Processing batch 6/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 5 → slot 1
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.021 ms (GPU)
+  3. Cluster Processing:    0.068 ms (GPU)
+       - Extract vertices: 0.018 ms
+       - Compute neighb.:  0.012 ms
+       - Vertex cluster.:  0.024 ms
+       - Assign edges:     0.007 ms
+       - Clear assigns.:   0.006 ms
+  4. TVB Process:           0.010 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.022 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 4 → slot 0
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.047 ms (GPU)
+  3. Cluster Processing:    0.125 ms (GPU)
+       - Extract vertices: 0.030 ms
+       - Compute neighb.:  0.032 ms
+       - Vertex cluster.:  0.032 ms
+       - Assign edges:     0.028 ms
+       - Clear assigns.:   0.004 ms
+  4. TVB Process:           0.005 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.621 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 5 → slot 1
+
+============================================================
+Processing batch 7/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 6 → slot 0
+
+============================================================
+Processing batch 8/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 7 → slot 1
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.019 ms (GPU)
+  3. Cluster Processing:    0.057 ms (GPU)
+       - Extract vertices: 0.017 ms
+       - Compute neighb.:  0.013 ms
+       - Vertex cluster.:  0.014 ms
+       - Assign edges:     0.006 ms
+       - Clear assigns.:   0.006 ms
+  4. TVB Process:           0.010 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.021 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 6 → slot 0
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.047 ms (GPU)
+  3. Cluster Processing:    0.126 ms (GPU)
+       - Extract vertices: 0.031 ms
+       - Compute neighb.:  0.034 ms
+       - Vertex cluster.:  0.032 ms
+       - Assign edges:     0.025 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.006 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.625 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 7 → slot 1
+
+============================================================
+Processing batch 9/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 8 → slot 0
+
+============================================================
+Processing batch 10/10
+Batch contains 6 edges
+------------------------------------------------------------
+BLOCKS-------------------->852
+BLOCKS-------------------->1
+Hello===========================-================================
+Dispatched batch 9 → slot 1
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.017 ms (GPU)
+  3. Cluster Processing:    0.051 ms (GPU)
+       - Extract vertices: 0.011 ms
+       - Compute neighb.:  0.013 ms
+       - Vertex cluster.:  0.014 ms
+       - Assign edges:     0.006 ms
+       - Clear assigns.:   0.006 ms
+  4. TVB Process:           0.009 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.020 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 8 → slot 0
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 0.000 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.048 ms (GPU)
+  3. Cluster Processing:    0.125 ms (GPU)
+       - Extract vertices: 0.029 ms
+       - Compute neighb.:  0.031 ms
+       - Vertex cluster.:  0.032 ms
+       - Assign edges:     0.029 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.006 ms (GPU)
+  5. Device->Host Transfer: 0.000 ms (GPU)
+  6. CPU Graph Update:      0.000 ms (CPU)
+  7. CPU Overhead:          0.651 ms (CPU)
+  8. Cluster count:         12
+Finished MIS for batch 9 → slot 1
+Waiting for final completions...
+
+================================================================================
+=== FINAL RESULTS ===
+================================================================================
+
+Graph Statistics:
+  Initial MIS cardinality: 180902
+  Final MIS cardinality:   180903
+  Cardinality change:      1
+  Number of batches:       10
+
+Overall Timing Results:
+  Total processing time:   47 milliseconds
+  Average time per batch:  4.700 milliseconds
+  Processing rate:         212.8 batches/second
+
+Average Component Times:
+  Average Cluster Processing: 0.100 ms
+  Average TVB Time:           0.008 ms
+================================================================================
+
+Pipeline completed successfully!

@@ -1,0 +1,20 @@
+===================================================== ParMIS_v1 CPU Results ===============================================
+----------------------------------------Start-----------------------------------------
+Number of nodes: 1048576
+Number of edges: 13094078
+Initial_card-> 180902
+Batch Size:-> 62 Ratio:-> 5
+Running Vertex Clustering...
+
+================================================================================
+                              CLUSTERING COMPARISON
+================================================================================
+
+-------------------------------Vertex Clustering------------------------------
+Cardinality changed by-> 20
+Total Incremental Edges Insertion time: 5.17668 milliseconds
+Average Incremental Edges Insertion time: 0.51767 milliseconds
+Average Vertex Clustering Time per batch 1.31230 milliseconds
+Average Vertex Clusters per batch:- 62
+Results saved to: clustering_comparison_results.txt
+

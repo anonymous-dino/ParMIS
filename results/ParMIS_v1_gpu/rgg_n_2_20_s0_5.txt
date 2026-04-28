@@ -1,0 +1,330 @@
+=======================================================START===============================================================================================================
+===================================================== ParMIS_v1 GPU Results ===============================================
+Using GPU: NVIDIA L40S
+Max threads per block: 1024
+Shared memory per block: 48 KB
+Multiprocessor count: 142
+Memory clock rate: 9001 MHz
+/data/prajjwal/ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
+Number of nodes: 1048576
+Number of edges: 13094078
+Initial MIS cardinality: 180902
+Batch size: 62
+
+============================================================
+Processing batch 1/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.559 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.311 ms
+  Cluster Time:      0.147 ms
+  MIS Processing:    0.018 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.011 ms (GPU)
+  3. Cluster Processing:    0.147 ms (GPU)
+       - Extract vertices: 0.070 ms
+       - Compute neighb.:  0.030 ms
+       - Vertex cluster.:  0.024 ms
+       - Assign edges:     0.012 ms
+       - Clear assigns.:   0.011 ms
+  4. TVB Process:           0.018 ms (GPU)
+  5. Device->Host Transfer: 4.300 ms (GPU)
+  6. CPU Graph Update:      0.049 ms (CPU)
+  7. CPU Overhead:          0.970 ms (CPU)
+  8. Cluster count:         124
+
+Batch Results:
+  Current MIS cardinality: 180908
+
+============================================================
+Processing batch 2/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.420 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.260 ms
+  Cluster Time:      0.063 ms
+  MIS Processing:    0.008 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.022 ms (GPU)
+  3. Cluster Processing:    0.063 ms (GPU)
+       - Extract vertices: 0.018 ms
+       - Compute neighb.:  0.018 ms
+       - Vertex cluster.:  0.016 ms
+       - Assign edges:     0.005 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.008 ms (GPU)
+  5. Device->Host Transfer: 4.238 ms (GPU)
+  6. CPU Graph Update:      0.043 ms (CPU)
+  7. CPU Overhead:          0.989 ms (CPU)
+  8. Cluster count:         124
+
+Batch Results:
+  Current MIS cardinality: 180911
+
+============================================================
+Processing batch 3/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.376 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.249 ms
+  Cluster Time:      0.057 ms
+  MIS Processing:    0.008 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.020 ms (GPU)
+  3. Cluster Processing:    0.057 ms (GPU)
+       - Extract vertices: 0.016 ms
+       - Compute neighb.:  0.016 ms
+       - Vertex cluster.:  0.014 ms
+       - Assign edges:     0.005 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.008 ms (GPU)
+  5. Device->Host Transfer: 4.229 ms (GPU)
+  6. CPU Graph Update:      0.040 ms (CPU)
+  7. CPU Overhead:          0.960 ms (CPU)
+  8. Cluster count:         124
+
+Batch Results:
+  Current MIS cardinality: 180917
+
+============================================================
+Processing batch 5/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.337 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.234 ms
+  Cluster Time:      0.059 ms
+  MIS Processing:    0.007 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.026 ms (GPU)
+  3. Cluster Processing:    0.059 ms (GPU)
+       - Extract vertices: 0.015 ms
+       - Compute neighb.:  0.018 ms
+       - Vertex cluster.:  0.015 ms
+       - Assign edges:     0.005 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.007 ms (GPU)
+  5. Device->Host Transfer: 4.208 ms (GPU)
+  6. CPU Graph Update:      0.038 ms (CPU)
+  7. CPU Overhead:          0.940 ms (CPU)
+  8. Cluster count:         124
+
+Batch Results:
+  Current MIS cardinality: 180922
+
+============================================================
+Processing batch 6/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.297 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.214 ms
+  Cluster Time:      0.057 ms
+  MIS Processing:    0.007 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.013 ms (GPU)
+  3. Cluster Processing:    0.057 ms (GPU)
+       - Extract vertices: 0.014 ms
+       - Compute neighb.:  0.018 ms
+       - Vertex cluster.:  0.016 ms
+       - Assign edges:     0.004 ms
+       - Clear assigns.:   0.004 ms
+  4. TVB Process:           0.007 ms (GPU)
+  5. Device->Host Transfer: 4.201 ms (GPU)
+  6. CPU Graph Update:      0.048 ms (CPU)
+  7. CPU Overhead:          0.916 ms (CPU)
+  8. Cluster count:         122
+
+Batch Results:
+  Current MIS cardinality: 180926
+
+============================================================
+Processing batch 7/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.391 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.312 ms
+  Cluster Time:      0.056 ms
+  MIS Processing:    0.007 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.013 ms (GPU)
+  3. Cluster Processing:    0.056 ms (GPU)
+       - Extract vertices: 0.013 ms
+       - Compute neighb.:  0.018 ms
+       - Vertex cluster.:  0.014 ms
+       - Assign edges:     0.005 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.007 ms (GPU)
+  5. Device->Host Transfer: 4.299 ms (GPU)
+  6. CPU Graph Update:      0.040 ms (CPU)
+  7. CPU Overhead:          0.922 ms (CPU)
+  8. Cluster count:         124
+
+Batch Results:
+  Current MIS cardinality: 180933
+
+============================================================
+Processing batch 8/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.347 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.242 ms
+  Cluster Time:      0.062 ms
+  MIS Processing:    0.007 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.015 ms (GPU)
+  3. Cluster Processing:    0.062 ms (GPU)
+       - Extract vertices: 0.012 ms
+       - Compute neighb.:  0.016 ms
+       - Vertex cluster.:  0.013 ms
+       - Assign edges:     0.005 ms
+       - Clear assigns.:   0.015 ms
+  4. TVB Process:           0.007 ms (GPU)
+  5. Device->Host Transfer: 4.227 ms (GPU)
+  6. CPU Graph Update:      0.038 ms (CPU)
+  7. CPU Overhead:          0.931 ms (CPU)
+  8. Cluster count:         121
+
+Batch Results:
+  Current MIS cardinality: 180945
+
+============================================================
+Processing batch 9/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.302 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.219 ms
+  Cluster Time:      0.054 ms
+  MIS Processing:    0.008 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.014 ms (GPU)
+  3. Cluster Processing:    0.054 ms (GPU)
+       - Extract vertices: 0.013 ms
+       - Compute neighb.:  0.016 ms
+       - Vertex cluster.:  0.015 ms
+       - Assign edges:     0.004 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.008 ms (GPU)
+  5. Device->Host Transfer: 4.205 ms (GPU)
+  6. CPU Graph Update:      0.038 ms (CPU)
+  7. CPU Overhead:          0.912 ms (CPU)
+  8. Cluster count:         121
+
+Batch Results:
+  Current MIS cardinality: 180950
+
+============================================================
+Processing batch 10/10
+Batch contains 62 edges
+------------------------------------------------------------
+BOCKS------------------>852
+BOCKS------------------>1
+Hello===========================-================================
+=== BATCH TIMING BREAKDOWN ===
+Total Batch Time: 5.308 ms
+
+Key Performance Metrics:
+  Transfer Time:     4.241 ms
+  Cluster Time:      0.054 ms
+  MIS Processing:    0.009 ms
+
+Component Breakdown:
+  1. CPU Conversion:        0.000 ms (CPU)
+  2. Host->Device Transfer: 0.013 ms (GPU)
+  3. Cluster Processing:    0.054 ms (GPU)
+       - Extract vertices: 0.013 ms
+       - Compute neighb.:  0.017 ms
+       - Vertex cluster.:  0.014 ms
+       - Assign edges:     0.004 ms
+       - Clear assigns.:   0.005 ms
+  4. TVB Process:           0.009 ms (GPU)
+  5. Device->Host Transfer: 4.228 ms (GPU)
+  6. CPU Graph Update:      0.040 ms (CPU)
+  7. CPU Overhead:          0.910 ms (CPU)
+  8. Cluster count:         122
+
+Batch Results:
+  Current MIS cardinality: 180958
+
+================================================================================
+=== FINAL RESULTS ===
+================================================================================
+
+Graph Statistics:
+  Initial MIS cardinality: 180902
+  Final MIS cardinality:   180958
+  Cardinality change:      56
+  Number of batches:       10
+
+Overall Timing Results:
+  Total processing time:   49.025 milliseconds
+  Average time per batch:  4.902 milliseconds
+  Processing rate:         204.0 batches/second
+
+Average Component Times:
+  Average Transfer Time:      3.828 ms
+  Average Cluster Processing: 0.061 ms
+  Average MIS Processing:     0.008 ms
+================================================================================
