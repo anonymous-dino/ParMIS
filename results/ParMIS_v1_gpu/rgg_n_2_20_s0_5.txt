@@ -5,7 +5,7 @@ Max threads per block: 1024
 Shared memory per block: 48 KB
 Multiprocessor count: 142
 Memory clock rate: 9001 MHz
-/data/prajjwal/ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
+ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
 Number of nodes: 1048576
 Number of edges: 13094078
 Initial MIS cardinality: 180902

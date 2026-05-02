@@ -10,7 +10,7 @@ GPU0: NVIDIA L40S
 GPU1: NVIDIA L40S
 Max threads per block: 1024
 Multiprocessor count: 142
-/data/prajjwal/ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
+ParMIS/datasets/converted_full/rgg_n_2_20_s0.mtx
 Number of nodes: 1048576
 Number of edges: 13094078
 Initial MIS cardinality: 180902

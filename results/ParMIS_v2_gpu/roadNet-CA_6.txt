@@ -10,7 +10,7 @@ GPU0: NVIDIA L40S
 GPU1: NVIDIA L40S
 Max threads per block: 1024
 Multiprocessor count: 142
-/data/prajjwal/ParMIS/datasets/converted_full/roadNet-CA.mtx
+ParMIS/datasets/converted_full/roadNet-CA.mtx
 Number of nodes: 1971281
 Number of edges: 5256552
 Initial MIS cardinality: 928281
