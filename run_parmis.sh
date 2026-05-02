@@ -15,7 +15,7 @@ NUM_BATCHES=10
 THREADS=64
 GPU_ID=0
 
-ROOT_DIR="/data/prajjwal/ParMIS"
+ROOT_DIR="ParMIS"
 BIN_DIR="${ROOT_DIR}/bin"
 DATA_DIR="${ROOT_DIR}/datasets"
 
